@@ -17,9 +17,9 @@ export default function CardDemo() {
   );
   const footer = (
     <span>
-      <Button>
+      <Button className="Button">
         <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-          Get In Touch
+        Let's Collaborate
         </Link>
       </Button>
     </span>

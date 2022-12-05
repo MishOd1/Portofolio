@@ -1,32 +1,98 @@
-import React from 'react';
+import React, { useState } from "react";
+import "../Todo.css";
 
-const About = () => {
+function Todo() {
+  // state hook - to get the value of the input
+  const [newItem, setNewItem] = useState(""); // this is to get the value of the thing being typed to plot in the input box it self while typing
+  const [items, setItems] = useState([]); // this is to store the value after add button has been clicked
+
+
+  // helper function
+  function addItem() {
+    if (!newItem) {
+      alert("enter an item!"); // returns alert if you try to input blank
+      return;
+    }
+
+    const item = {
+      id: Math.floor(Math.random() * 1000),
+      value: newItem,
+    };
+
+    setItems((oldList) => [...oldList, item]);
+    setNewItem("");
+  }
+  
+  function deleteItem(id) {
+    const NewArray = items.filter((item) => item.id !== id); //this will delete single item
+    setItems(NewArray);
+  }
+  
+  function deleteAll(id) {
+    const NewArray = items.filter((item) => item.id === id); //this will delete single item
+    setItems(NewArray);
+  }
   return (
-    <div name='about' className='w-full h-screen bg-[#15243f] text-gray-300'>
-      <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right pb-8 pl-4'>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
-              About
-            </p>
-          </div>
-          <div></div>
-          </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Sai Kumar, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
-            </div>
-          </div>
+    <div className="App" name="ToDo">
+      <br></br>
+      <br></br>
+     
+      {/* 1.Header*/}
+      <h1 className="header">To-Do List App (React)</h1>
+      <br></br>
+      <br></br>
+      {/*2. input*/}
+      <div className="inputsContainer">
+        <input
+          type="text"
+          maxLength={50}
+          className="inputBox"
+          placeholder="add an item..."
+          value={newItem}
+          onChange={(e) => setNewItem(e.target.value)}
+        />{" "}
+
+        <button
+          className="add"
+          onClick={() => {
+            addItem();
+          }}
+        >
+          {" "}
+          {/* ADD ;addDate if it dosent Work minute 5*/}
+          Add Task
+        </button>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      {/*3. list of items  */}
+      <ul className="Items-Main">
+        {items.map((item, date) => {
+          return (
+            <div id="container">
+              <li className="items-item" key={item.id}>
+                {item.value}
+              
+                <button
+                  id="DeleteMe"
+                  title="done?"
+                  className="Delete"
+                  onClick={() => deleteItem(item.id)}
+                >
+                  <p className="delete">X</p>
+                </button>
+              </li>
+            </div>
+          ); // ploting task
+        })}
+      </ul>
+
+      <button className="DeleteAll" onClick={() => deleteAll(items)}>
+        Clear List
+      </button>
     </div>
   );
-};
+}
 
-export default About;
+export default Todo;
