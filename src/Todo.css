@@ -9,15 +9,16 @@
     display: flex;
     border-radius: 8px;
     height: 8.8vh;
-    width:50vw;
-    margin-left: 26vw;
+    width:50%;
+    margin-left: 25%;
     margin-top: 0vw;
-    margin-right:100vw;
+   
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.733);
     grid-template-columns: auto;
     background-color: rgba(255, 247, 0, 0.37);
     background: linear-gradient(90deg, #79dbe23a, #5e81e023, #587b9c1e, #71bdc238);
     align-items: center;
+    justify-content: center;
           }
   .items-item{
             width:120vw;
@@ -53,7 +54,7 @@
       color: #000000;
       font-size: medium;
       
-      background-color:rgba(199, 186, 7, 0.603);
+      background-color:rgba(80, 188, 231, 0.842);
       box-shadow: 0 0px 12px rgb(0, 0, 0);
       cursor: pointer;
       font-weight: bold;
@@ -68,21 +69,25 @@
   }
   
   .header{
-      color:white;
+      color:rgba(255, 255, 255, 0.151);
       text-align: top;
       width: 100vw;
       margin: 0px auto;
-      color: rgba(199, 186, 7, 0.842);;
+      color: rgba(12, 248, 236, 0.829);;
       font-size: 80px;
       letter-spacing: 2.1px;
       
-      margin-top: 3.5vh;
+      margin-top: 20vh;
       font-size: 30px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       
-      text-shadow: -1px -1px 0px rgb(83, 83, 83),
-        2px 2px 0px rgb(0, 0, 0),
-        3px 3px 0px rgb(85, 109, 109)
+      text-shadow: -2px -3px 3px rgba(17, 17, 17, 0.452),
+      2px -2px 3px rgba(0, 0, 0, 0.452),
+      2px 3px 3px rgba(7, 7, 7, 0.452)
+          
+        
+        
+      
     }
   
   
@@ -104,7 +109,7 @@
       transition: background .8s ease;
       margin: 10vh;
       
-      
+      margin-bottom: 25vh;
       
   }
   .delete{
@@ -143,7 +148,7 @@
     margin: 5vh ;
     margin-left:-20px;
     
-    margin-top:2vh;
+    
     box-sizing: border-box;
     border-radius: 18px;
     box-shadow: #000000;
@@ -152,12 +157,13 @@
 
   .inputsContainer{
     background-color: #404c616b;
-    width: 40vw;
-    margin-left: 30.5vw;
+    width: 30%;
+    margin-left: 35%;
     border-radius: 50px;
     overflow: hidden;
-    height:8vh;
-    position: relative;
+    height: 13vh;
+    align-items: center;
+    border:0.5px dotted rgba(255, 0, 179, 0.315);
   }
   
   

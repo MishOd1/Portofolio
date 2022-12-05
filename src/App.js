@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
-
+import Card3 from "./components/Quiz";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Home />
       <Skills />
       <Todo />
+      <Card3 />
       <Work />
       <Contact />
     </div>
