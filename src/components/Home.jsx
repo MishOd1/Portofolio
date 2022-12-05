@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import World from '../assets/111.png'
-
+import CardDemo from './Cards';
 const Home = () => {
   
     const [nav, setNav] = useState(false);
@@ -20,15 +20,19 @@ const Home = () => {
           Mishaal Odeh
         </h1>
         <h2 className='text-4xl sm:text-4xl font-bold text-[#8892b0]'>
-          I'm a Web Developer
+          A Web Developer
         </h2>
         
         <p className='text-[#8892b0] py-4 max-w-[750px]'>
-          i'm a front-end dev who's goal is to become a full stack and a react native dev before Dec. 2023 
-          <br></br> after expanding my knowldge in React, im gonna start learning Django to become a full stack<br></br>then React Native will be my next destenation..
+          i am front-end dev. who's goal is to become a full stack and a react native dev. before Dec. 2023 
+          <br></br> after expanding my knowldge in React, i will start learning Django to become a full stack<br></br>then React Native will be my next destenation..
 
         </p>
+        {/* <div>
+          <img className='overflow-hidden w-[20%] h-[50%] mx-auto mt-1 fixed top-[10rem]  right-6' src={World}  />
+        </div> */}
         </div>
+        
         <div>
         
         
@@ -51,9 +55,7 @@ const Home = () => {
         </div>
    
       </div>
-      <div>
-          <img className='w-[300px] h-[300px] mx-auto mt-1 fixed top-[10rem] left--7 right-2' src={World} alt="HTML icon" />
-        </div>
+      
     </div>
   );
 };

@@ -8,9 +8,10 @@ import {
   FaDiscord,
   FaGithubSquare,
 } from 'react-icons/fa';
-
+import CardDemo from './Cards';
 import Logo from '../assets/Fin.png';
 import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = () => {
       <div>
         <img src={Logo}   alt='Logo Image' style={{ width: '90px' }}  />
       </div>
-
+     
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
@@ -50,6 +51,19 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+
+
+
+
+
+
+      
+
+
+
+
+
+
 
       {/* Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10'>
@@ -98,23 +112,23 @@ const Navbar = () => {
       {/* Social icons */}
       <div className=' lg:flex fixed flex-col top-[33.3333333%] left-2  '>
         <ul>
-        <li className='w-[140px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0a192f] hover:bg-[#333] '>
+        <li className='w-[140px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-solid border-[5px] border-gray-400  border-y-transparent  bg-gray-700  hover:bg-[#333] '>
             <a
-              className='flex justify-between items-center w-full text-gray-300 hover:text-gray-300'
+              className='flex justify-between items-center w-full text-gray-300  hover:text-gray-300'
               href='https://github.com/MishOd1'
             >
-              GitHub <FaGithub size={20} />
+              GitHub <FaGithub size={25} />
             </a>
           </li>
-          <li className='w-[140px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-12px] duration-300 bg-[#0a192f]  hover:bg-[#1DA1F2] '>
+          <li className='w-[140px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-12px] duration-300 border-solid border-[5px] border-[#1d92f2]  border-y-transparent  bg-gray-700 hover:bg-[#1DA1F2] '>
             <a
               className='flex justify-between items-center w-full text-[#1DA1F2] hover:text-gray-300'
               href='https://twitter.com/MeshalOdah'
             >
-              Twitter <FaTwitter size={20} />
+              Twitter <FaTwitter size={25} />
             </a>
           </li>
-          <li className='w-[140px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-13px] duration-300 bg-[#0a192f] hover:bg-blue-600'>
+          <li className='w-[140px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-13px] border-solid border-[5px] border-blue-600 border-y-transparent duration-300 bg-gray-700 hover:bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-blue-600 hover:text-gray-300'
               href='https://www.facebook.com/44a44'
@@ -122,19 +136,13 @@ const Navbar = () => {
               Facebook <FaFacebookF size={25} />
             </a>
           </li>
-          <li className='w-[140px] h-[30px] flex justify-between items-center ml-[-100px] hover:ml-[-14px] duration-300 bg-[#0a192f] hover:bg-[#7289da]'>
-            <a
-              className='flex justify-between items-center w-full text-[#8572da] hover:text-gray-300'
-              href='https://discordapp.com/users/Claw11#5089'
-            >
-              Discord <FaDiscord size={20} />
-            </a>
-          </li>
+          
       
           
           
         </ul>
       </div>
+      <CardDemo className="hello" />
     </div>
   );
 };

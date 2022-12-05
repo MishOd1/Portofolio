@@ -9,8 +9,11 @@ import Work from "./components/Work";
 function App() {
   return (
     <div>
+     
       <Navbar />
+      
       <Home />
+      
       <Skills />
       <About />
       <Work />
