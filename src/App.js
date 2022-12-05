@@ -1,4 +1,4 @@
-import About from "./components/About";
+import Todo from "./components/Todo";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -11,11 +11,9 @@ function App() {
     <div>
      
       <Navbar />
-      
       <Home />
-      
       <Skills />
-      <About />
+      <Todo />
       <Work />
       <Contact />
     </div>
