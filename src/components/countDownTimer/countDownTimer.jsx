@@ -28,7 +28,7 @@ const CountdownTimer = ({countdownTimestampMs}) => {
   }
   return(
     <div className="countdown-timer1">
-        <footer className="footer">'</footer>
+        <footer className="footer mt-[-5%] text-[#15243f]">'</footer>
             <header>
             <div className="mt-[20vh] ">
               <p className='text-[35px]  font-bold inline border-b-4 border-pink-600 text-red-50 '>CountDown To The Next Bitcoin Halving</p>

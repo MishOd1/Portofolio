@@ -88,6 +88,7 @@ function Card3() {
 
   return (
     <div className="App3 mt-20" name="Quiz">
+         <footer className="footer mt-[-5%] text-[#15243f]">'</footer>
       <div className="question-card2">
         <div className="again">
           <p className="text-4xl pt-10 font-bold inline border-b-4 border-pink-600 text-red-50 ">
@@ -112,7 +113,7 @@ function Card3() {
 
       {showResults ? (
         <div className="final-results">
-          <h1>Final Results</h1>
+          <h1 className="text-3xl text-gray-400">Final Results</h1>
           <h2>
             {score} out of {questions.length} correct - (
             {(score / questions.length) * 100}%)
