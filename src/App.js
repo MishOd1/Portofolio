@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Card3 from "./components/Quiz";
-
+import Countdown from "./CountDown/CountDown";
 function App() {
   return (
     <div>
@@ -15,7 +15,7 @@ function App() {
       <Skills />
       <Todo />
       <Card3 />
-      <Work />
+      <Countdown />
       <Contact />
     </div>
   );

@@ -1,0 +1,101 @@
+.countdown-timer1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  h1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 5rem;
+      margin-bottom: 30px;
+    color: rgb(8, 8, 8);
+    text-shadow: 0.1px 0.5px black;
+    
+  }
+  
+  
+  .countdown-timer2{
+    background: rgba(41, 17, 1, 0.555);
+    font-size: 2rem;
+    margin-top:6rem;
+    box-shadow: 2px 3px rgba(65, 64, 64, 0.137);
+    height: 10rem;
+  }
+  
+  .countdown-timer2 span{
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-top: -3 rem;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(180, 109, 28);
+    text-shadow: 0.4px 1.4px rgba(0, 0, 0, 0.89);
+    font-size: 80px;
+  
+  
+  }
+
+ 
+  .frames {
+      width: 50%;
+      float: left;
+      padding: 0.5rem;
+      border: 0.01rem solid rgb(0, 0, 0);
+      
+  }
+  
+  .countdown-timer2{
+    display:flex;
+    width:70%;
+    margin-left: 15%;
+  }
+  
+  #hi{
+    
+    color:rgb(255, 255, 255);
+    font-family: monospace;
+    font-size:33px;
+    margin-left: 10px;
+    text-shadow: 0.7px 1.5px rgba(206, 178, 218, 0.527);
+  }
+  
+  #bye{
+    color:rgb(180, 109, 28);
+    
+  }
+  
+  .btc-is {
+    display: inline-block;
+    text-align: left;
+    color:rgb(5, 5, 5);
+    font-size: 1.35rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline-color: black;
+    outline-style: solid;
+    outline-offset: 2rem;
+    outline-width: 0.01px;
+    text-shadow: 0.5px 0.5px black;
+    border-radius: 2px;
+  
+    
+  
+  }
+  
+  .h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+    
+  }
+  
+  .p{
+    text-align: center;
+  }
+  
+  
+  .hello_1{
+    margin-left:3rem;
+    font-size:1rem;
+    font-family: sans-serif;
+  }
+  

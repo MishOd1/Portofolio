@@ -1,0 +1,42 @@
+.app{
+  
+    width:80vw;
+    margin-left: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+
+  
+  
+  /* body{
+    background-color: #f3efb27a;
+    background-size: cover;
+   
+  
+  
+  } */
+  
+  .apexcharts-canvas{
+    background-color: #c2bfa27a;
+    
+  }
+  
+  .Graph2{
+    margin: auto;
+    width: 50%;
+    margin-top: 3rem;
+    padding: 1px;
+  
+  }
+  
+  .Graph1{
+    margin: auto;
+    width: 70%;
+    margin-top: 1rem;
+    padding: 5px;
+  }
+  

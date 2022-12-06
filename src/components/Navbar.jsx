@@ -46,8 +46,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li >
-          <Link to='work' smooth={true} duration={500}>
-            Quiz
+          <Link to='Halving' smooth={true} duration={500}>
+            Halving Countdown
           </Link>
         </li>
         <li>
@@ -90,20 +90,26 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-5xl'>
           {' '}
-          <Link onClick={handleClick} to='Todo' smooth={true} duration={500}>
-            To-Do List
-          </Link>
-        </li>
-        <li className='py-6 text-5xl'>
-          {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className='py-6 text-5xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to='Todo' smooth={true} duration={500}>
+            To-Do List
+          </Link>
+        </li>
+        <li className='py-6 text-5xl'>
+          {' '}
+          <Link onClick={handleClick} to='Quiz' smooth={true} duration={500}>
+            Quiz
+          </Link>
+        </li>
+        <li className='py-6 text-5xl'>
+          {' '}
+          <Link onClick={handleClick} to='Halving' smooth={true} duration={500}>
+          Halving Countdown
           </Link>
         </li>
         <li className='py-6 text-5xl'>

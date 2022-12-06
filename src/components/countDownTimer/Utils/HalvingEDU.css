@@ -1,0 +1,21 @@
+@fontface {
+    font-family: 'Poiret One';
+    src: url('https://fonts.google.com/specimen/Poiret+One');
+  }
+  .para{
+  
+    
+    text-align: center;
+    color:rgb(5, 5, 5);
+    font-size: 1.35rem;
+    font-family: "Playfair Display";
+    
+    text-shadow: 0.7px 0.5px black;
+  
+  
+    
+    
+  }
+  
+  
+  
