@@ -6,7 +6,6 @@ function Todo() {
   const [newItem, setNewItem] = useState(""); // this is to get the value of the thing being typed to plot in the input box it self while typing
   const [items, setItems] = useState([]); // this is to store the value after add button has been clicked
 
-
   // helper function
   function addItem() {
     if (!newItem) {
@@ -22,12 +21,12 @@ function Todo() {
     setItems((oldList) => [...oldList, item]);
     setNewItem("");
   }
-  
+
   function deleteItem(id) {
     const NewArray = items.filter((item) => item.id !== id); //this will delete single item
     setItems(NewArray);
   }
-  
+
   function deleteAll(id) {
     const NewArray = items.filter((item) => item.id === id); //this will delete single item
     setItems(NewArray);
@@ -36,9 +35,14 @@ function Todo() {
     <div className="App" name="ToDo">
       <br></br>
       <br></br>
-     
+      
+          <div className="mt-[20vh] ">
+              <p className='text-4xl  font-bold inline border-b-4 border-pink-600 text-red-50 '>To-Do List</p>
+              <p className='py-4 text-gray-300'>// This will help you orginize the day</p>
+          </div>
+      <div id="helloIsItMe">
       {/* 1.Header*/}
-      <h1 className="header">To-Do List App (React)</h1>
+      {/* <h1 className="header">To-Do List App (React)</h1> */}
       <br></br>
       <br></br>
       {/*2. input*/}
@@ -51,7 +55,6 @@ function Todo() {
           value={newItem}
           onChange={(e) => setNewItem(e.target.value)}
         />{" "}
-
         <button
           className="add"
           onClick={() => {
@@ -73,7 +76,7 @@ function Todo() {
             <div id="container">
               <li className="items-item" key={item.id}>
                 {item.value}
-              
+
                 <button
                   id="DeleteMe"
                   title="done?"
@@ -91,6 +94,7 @@ function Todo() {
       <button className="DeleteAll" onClick={() => deleteAll(items)}>
         Clear List
       </button>
+      </div>
     </div>
   );
 }

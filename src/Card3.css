@@ -1,5 +1,6 @@
-.App {
+.App3 {
     text-align: center;
+    margin-top: 10vh;
   }
   
   .question-card {
@@ -15,10 +16,10 @@
     padding: 16px;
     border-radius: 16px;
     color: rgb(197, 196, 196);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    margin-bottom: 3rem;
+    box-shadow: 2px 4px 18px rgba(0, 0, 0, 0.459);
+    margin-bottom: 30rem;
     border: 1px solid rgba(236, 236, 181, 0.651);
+
   }
   
   .Hi {
@@ -98,6 +99,8 @@
     position: relative;
     height: 0;
     z-index: -999;
+    margin-bottom: -22rem;
+    margin-top: 7rem;
   }
   
   .video-responsive iframe {
@@ -111,7 +114,7 @@
   }
   .Welcome{
     font-size: 5rem;
-    border: 0.5px dotted rgba(0, 0, 0, 0.39);
+    
     border-radius: 18px;
   }
   
@@ -132,21 +135,36 @@
   .question-card2 {
     /* Center the div  */
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 10vh;
     margin-bottom: 2rem;
+    text-align: center;
   
     /* Dimensions  */
     width: 90%; /* Can be in percentage also. */
     height: auto;
   
     /* Visual  */
-    background-color: rgba(48, 48, 48, 0.103);
-    padding: 16px;
-    border-radius: 16px;
+    /* background-color: rgba(48, 48, 48, 0.103); */
+    /* padding: 16px;
+    border-radius: 16px; */
     
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+    background: transparent;
   }
   .qustion1{
     color:rgb(175, 175, 15);
   }
+
+  #sex_1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 7vh;
+    margin-left: 17%;
+  }
+  .again{
+    margin-top: 10rem;
+    margin-bottom:7rem
+  }
+ 

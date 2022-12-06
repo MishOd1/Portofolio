@@ -1,5 +1,9 @@
 .App {
     text-align: center;
+    width: 100%;
+    
+
+    
   
   }
   
@@ -40,8 +44,14 @@
             font-size: 150%;
             align-items: center;
             font-weight: 100;
+            color: rgb(213, 214, 138);
+            font-size: 150%;
+            font-weight: 200;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  
+#container:hover{
+   background: linear-gradient(90deg, #ffffff46, #5e81e023, #587b9c1e, #c0c6c74f);
+  }
   
   
   .add{
@@ -77,7 +87,7 @@
       font-size: 80px;
       letter-spacing: 2.1px;
       
-      margin-top: 20vh;
+      margin-top: 10vh;
       font-size: 30px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       
@@ -157,17 +167,45 @@
 
   .inputsContainer{
     background-color: #404c616b;
-    width: 30%;
-    margin-left: 35%;
+    width: 60%;
+    margin-left: 20%;
     border-radius: 50px;
     overflow: hidden;
     height: 13vh;
     align-items: center;
     border:0.5px dotted rgba(255, 0, 179, 0.315);
   }
+  .inputsContainer:hover{
+    background: linear-gradient(90deg, #79dbe23a, #5e81e023, #587b9c1e, #71bdc238);
+  }
+
   
   
 
  body{
     background-color: #15243f;
  }  
+ 
+#helloIsItMe2{
+  background: linear-gradient(-90deg, #ee765220, #e73c7e20, #ab23d520, #8f3f8b20, #d523c620, #ac73a920);
+	background-size: 350% 350%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  width:50%;
+  margin-left:25%;
+  padding: 1%;
+  border-radius: 30px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
