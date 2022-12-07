@@ -46,7 +46,7 @@ function Todo() {
       <br></br>
       <br></br>
       {/*2. input*/}
-      <div className="inputsContainer">
+      <div className="inputsContainer w-[100%] lg:w-[60%] lg:ml-[20%]">
         <input
           type="text"
           maxLength={50}

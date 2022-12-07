@@ -26,7 +26,8 @@ export default function CardDemo() {
   );
 
   return (
-    <div>
+    <div className='flex'>
+      <div className="hidden xl:flex">
       <Card
         className="card"
         title="Mishaal Odeh"
@@ -40,6 +41,7 @@ export default function CardDemo() {
           <li>2. Front End</li> <li>3. Trading</li> <li>4. Legal Consultation</li></ul>
         </p>
       </Card>
+      </div>
     </div>
   );
 }

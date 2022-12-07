@@ -35,7 +35,7 @@ const CountdownTimer = ({countdownTimestampMs}) => {
               <p className='py-4 text-gray-300'>// Next Halving, and some charts to explain the effect of halving on BTC price</p>
           </div>
       </header >
-      <div className='max-w-[70%] ml-[15%] mx-auto p-4 flex text-center flex-col justify-center w-full h-full'>
+      <div className='max-w-[100%] lg:max-w-[70%] lg:ml-[15%] mx-auto p-4 flex text-center flex-col justify-center w-full h-full'>
       <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8"> 
        <div className="shadow-md bg-[#0a192f] shadow-[#040c16] hover:scale-110 duration-500 hover:shadow-[#53d8e96c]">
           <span className='text-8xl  text-[#7692e6]'>{remainingTime.days}</span><br></br>
@@ -55,7 +55,7 @@ const CountdownTimer = ({countdownTimestampMs}) => {
         </div>
         <div className="shadow-md bg-[#0a192f] shadow-[#040c16] hover:scale-110 duration-500 hover:shadow-[#53d8e96c]">
         <span className='text-8xl  text-[#7692e6]'>{remainingTime.milliSeconds}</span><br></br>
-        <span className='text-white text-3xl'>MS</span>
+        <span className=' ' id='hi'>MS</span>
         </div>
       </div>
       </div>
@@ -70,10 +70,10 @@ const CountdownTimer = ({countdownTimestampMs}) => {
         <li className="hello_1">The final halving will be in 2140 with the maximum supply of 21 million.</li>
         
       </p> */}
-      <p className='text-[25px] text-blue-300 max-w-[70%] ml-[15%] '>In simple words, bitcoin halving event is the event where the reward of bitcoin minners is cut in half<br></br>
+      <p className='text-[25px] max-w-[90%] ml-[5%] text-blue-300 lg:max-w-[70%] lg:ml-[15%] '>In simple words, bitcoin halving event is the event where the reward of bitcoin minners is cut in half<br></br>
       and this event usually takes place every 4 Years -apporxemtly-, and it historiclly has been a market rally trigger!<br></br>
       </p>
-      <p className='text-[18px] text-gray-400 max-w-[50%] ml-[25%] mt-16 text-left'>
+      <p className='text-[18px]  max-w-[90%] ml-[5%] text-gray-400 lg:max-w-[50%] lg:ml-[25%] mt-16 text-left'>
         <br></br>
         So bitcoin has a tottal supply of <xo className='text-white'>21,000,000 Bitcoins</xo>, meaning that there will only ever be 21M bitcoins in existense!<br></br>
         and we as well know from the quiz we took earlier that bitcoin is minned by super computers, these minners
@@ -82,7 +82,7 @@ const CountdownTimer = ({countdownTimestampMs}) => {
         it stayed that way for more 4 years until year <xo className='text-white'>2016</xo> where the second halving took place and reward became <xd className='text-yellow-200'>12.5</xd> bitcoins,
         the halving after that took place in may <xo className='text-white'>2020</xo>, and the minners reward became <xd className='text-yellow-200'>6.25</xd> bitcoins, and it will stay that way until year <xo className='text-white'>2024</xo> where the reward will become <xd className='text-yellow-200'>3.125</xd> bitcoins.<br></br>
       </p>
-      <p className='text-[15px] text-gray-500 max-w-[50%] ml-[25%] mt-16 text-left mb-[-2%]'>
+      <p className='text-[15px]  max-w-[90%] ml-[5%] text-gray-500 lg:max-w-[50%] lg:ml-[25%] mt-16 text-left mb-0 lg:mb-[-2%]'>
         in the following chart we can see the drop in bitcoins's reward on each halving event:
       </p>
 

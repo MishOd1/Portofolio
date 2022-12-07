@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 .card {
     margin-top: 500%;
     background-color: rgba(240, 240, 240, 0.034);
-    height: 32rem;
+    height: 35rem;
     overflow: hidden;
     border-radius: 10px;
     font-size: small;

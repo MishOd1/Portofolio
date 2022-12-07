@@ -5,11 +5,10 @@
   
   .question-card {
     /* Center the div  */
-    margin: 0 auto;
+    margin:  auto;
   
     /* Dimensions  */
-    width: 60%; /* Can be in percentage also. */
-    height: auto;
+   
   
     /* Visual  */
     background-color: rgba(0, 0, 0, 0.096);
@@ -55,12 +54,11 @@
   
   .final-results {
     /* Center the div  */
-    margin: 0 auto;
+    
   
     /* Dimensions  */
-    width: 50%; /* Can be in percentage also. */
-    height: auto;
-    margin-top: 64px;
+   
+   
   
     /* Visual  */
     background-color: rgba(87, 127, 153, 0.411);
@@ -69,15 +67,15 @@
     color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
       rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    margin-bottom: 3rem;
+    margin-bottom: 11rem;
     color: rgba(223, 195, 33, 0.836);
     
   }
   
   .button {
-    background-color: rgba(88, 105, 153, 0.637); /* Green */
+    background-color: rgba(187, 153, 218, 0.712); /* Green */
     border: none;
-    color: rgb(191, 128, 211);
+    color: rgb(32, 32, 32);
     padding: 10px 12px;
     text-align: center;
     text-decoration: none;

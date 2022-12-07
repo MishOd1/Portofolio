@@ -98,7 +98,7 @@ function Card3() {
             // Expand your knowledge about BTC
           </p>
         </div>
-        <h2 className="text-3xl sm:text-xl mb-[-3.4%]  text-[#8892b0]">
+        <h2 className="text-1xl lg:text-3xl mb-[-3.4%] text-[#8892b0]">
           Please play the 1 minute video below<br></br>
           then procced to the 5 qustion quiz below it and answer all the
           qustions..
@@ -112,18 +112,18 @@ function Card3() {
       <YoutubeEmbed embedId="wrPklp6PIew" />
 
       {showResults ? (
-        <div className="final-results">
-          <h1 className="text-3xl text-gray-400">Final Results</h1>
+        <div className="final-results w-[100%] h-auto lg:w-[60%] lg:ml-[20%] mt-[70%] lg:mt-[20rem]">
+          <h1 className="text-3xl text-gray-200">Final Results</h1>
           <h2>
             {score} out of {questions.length} correct - (
             {(score / questions.length) * 100}%)
           </h2>
           <button className="button" onClick={() => restartGame()}>
-            Restart game
+            Restart Quiz
           </button>
         </div>
       ) : (
-        <div className="question-card">
+        <div className="question-car w-[100%] h-auto lg:w-[60%] lg:ml-[20%] mt-[70%] lg:mt-[20rem]">
           <h2 className="qustion1">
             Question: {currentQuestion + 1} out of {questions.length}
           </h2>

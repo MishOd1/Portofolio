@@ -109,7 +109,7 @@ const Navbar = () => {
         <li className='py-6 text-5xl'>
           {' '}
           <Link onClick={handleClick} to='Halving' smooth={true} duration={500}>
-          Halving Countdown
+          Halving
           </Link>
         </li>
         <li className='py-6 text-5xl'>
@@ -121,11 +121,12 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className=' lg:flex fixed flex-col top-[33.3333333%] left-2  '>
-        <ul>
+      <div className=' lg:flex fixed flex-col top-[33.3333333%] left-2'>
+        <div className='hidden xl:flex'>
+        <ul >
         <li className='w-[140px] h-[25px] flex justify-between items-center ml-[-100px] hover:ml-[-22px] duration-300 border-solid border-[5px] border-gray-400  border-y-transparent  bg-gray-700  hover:bg-[#333] '>
             <a
-              className='flex justify-between items-center w-full text-gray-300  hover:text-gray-300'
+              className='flex justify-between items-center w-full text-gray-300 hover:text-gray-300'
               href='https://github.com/MishOd1'
             >
               GitHub <FaGithub size={25} />
@@ -152,8 +153,11 @@ const Navbar = () => {
           
           
         </ul>
+        </div>
       </div>
-      <CardDemo className="hello" />
+      <div className='flex'>
+      <CardDemo className="hello ms:sr-only hidden md:flex" />
+      </div>
     </div>
   );
 };

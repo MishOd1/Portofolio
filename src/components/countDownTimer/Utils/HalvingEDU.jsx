@@ -11,7 +11,7 @@ return(
 
     
     <br></br>
-    <p className='text-[18px] text-gray-400 max-w-[100%] ml-[0%] mt-10 text-left'>
+    <p className='text-[18px] text-gray-400 mt-10  w-[90%] ml-[5%] lg:w-[70%] lg:ml-[15%] text-left'>
         now the qustion is if the reward was at the beggining 50 bitcoins (worth 800,000$ at todays price)
         <br></br> and now the reward is only 6.25 bitcoins after the last halving (worth around 100,000$)
          then, <br></br><xp className='text-gray-200 text-[20px]'>minning must be out of fasion!?</xp><br></br>

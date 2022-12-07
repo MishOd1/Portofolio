@@ -26,17 +26,21 @@
   }
   
   .Graph2{
-    margin: auto;
-    width: 50%;
     margin-top: 3rem;
     padding: 1px;
+    z-index: -999;
+
   
   }
   
   .Graph1{
     margin: auto;
-    width: 70%;
-    margin-top: 1rem;
+    
     padding: 5px;
+    z-index: -999 !important;
   }
+
+  .apexcharts-chart {
+    z-index: -999 !important;
+}
   

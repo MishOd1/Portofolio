@@ -12,7 +12,7 @@ export default function Countdown() {
       <div className="App" name="Halving">
       <CountdownTimer
       countdownTimestampMs={1711251267000}/>
-        <div className="Graph2">
+        <div className="Graph2 w-[90%] ml-[5%] lg:w-[70%] lg:ml-[15%]">
           <Graph2/>
           <EDU />
           <Graph3 />
