@@ -9,10 +9,10 @@ export default function Countdown() {
   return (
     <div>
       
-      <div className="App" name="Halving">
+      <div className="App -z-999" name="Halving" >
       <CountdownTimer
       countdownTimestampMs={1711251267000}/>
-        <div className="Graph2 w-[90%] ml-[5%] lg:w-[70%] lg:ml-[15%]">
+        <div className="Graph2 w-[90%] ml-[5%] lg:w-[70%] lg:ml-[15%] -z-999">
           <Graph2/>
           <EDU />
           <Graph3 />

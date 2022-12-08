@@ -27,12 +27,12 @@ export default function CardDemo() {
 
   return (
     <div className='flex'>
-      <div className="hidden xl:flex">
+      <div className="hidden lg:flex xl:max-w-[100%] ml-20">
       <Card
         className="card"
         title="Mishaal Odeh"
         subTitle="Trader/Coder/Lawyer"
-        style={{ width: "11rem" }}
+        style={{ width: "10rem" }}
         footer={footer}
         header={header}
       >

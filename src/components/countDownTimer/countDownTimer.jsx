@@ -31,31 +31,31 @@ const CountdownTimer = ({countdownTimestampMs}) => {
         <footer className="footer mt-[-5%] text-[#15243f]">'</footer>
             <header>
             <div className="mt-[20vh] ">
-              <p className='text-[35px]  font-bold inline border-b-4 border-pink-600 text-red-50 '>CountDown To The Next Bitcoin Halving</p>
+              <p className='text-4xl  font-bold inline border-b-4 border-pink-600 text-red-50 '>CountDown To The Next Bitcoin Halving</p>
               <p className='py-4 text-gray-300'>// Next Halving, and some charts to explain the effect of halving on BTC price</p>
           </div>
       </header >
       <div className='max-w-[100%] lg:max-w-[70%] lg:ml-[15%] mx-auto p-4 flex text-center flex-col justify-center w-full h-full'>
-      <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8"> 
+      <div className="w-[90%] ml-[5%] grid grid-cols-5 lg:grid-cols-5 gap-4 text-center py-8"> 
        <div className="shadow-md bg-[#0a192f] shadow-[#040c16] hover:scale-110 duration-500 hover:shadow-[#53d8e96c]">
-          <span className='text-8xl  text-[#7692e6]'>{remainingTime.days}</span><br></br>
-          <span id="hi">Days</span>
+          <span className='text-2xl md:text-8xl text-pink-600 md:text-[#7692e6]'>{remainingTime.days}</span><br></br>
+          <span id="hi" className="text-sm md:text-3xl">Days</span>
         </div>
         <div className="shadow-md bg-[#0a192f] shadow-[#040c16] hover:scale-110 duration-500 hover:shadow-[#53d8e96c]">
-          <span className='text-8xl  text-[#7692e6]'>{remainingTime.hours}</span><br></br>
-          <span id="hi">Hours</span>
+          <span className='text-2xl md:text-8xl  text-pink-600 md:text-[#7692e6]'>{remainingTime.hours}</span><br></br>
+          <span id="hi" className="text-sm md:text-3xl">Hours</span>
         </div>
         <div className="shadow-md bg-[#0a192f] shadow-[#040c16] hover:scale-110 duration-500 hover:shadow-[#53d8e96c]">
-          <span className='text-8xl  text-[#7692e6]'>{remainingTime.minutes}</span><br></br>
-          <span id="hi">Minutes</span>
+          <span className='text-2xl md:text-8xl text-pink-600 md:text-[#7692e6]'>{remainingTime.minutes}</span><br></br>
+          <span id="hi" className="text-sm md:text-3xl">Minutes</span>
         </div>
         <div className="shadow-md bg-[#0a192f] shadow-[#040c16] hover:scale-110 duration-500 hover:shadow-[#53d8e96c]">
-        <span className='text-8xl  text-[#7692e6]'>{remainingTime.seconds}</span><br></br>
-        <span id="hi">Seconds</span>
+        <span className='text-2xl md:text-8xl  text-pink-600 md:text-[#7692e6]'>{remainingTime.seconds}</span><br></br>
+        <span id="hi" className="text-sm md:text-3xl">Seconds</span>
         </div>
         <div className="shadow-md bg-[#0a192f] shadow-[#040c16] hover:scale-110 duration-500 hover:shadow-[#53d8e96c]">
-        <span className='text-8xl  text-[#7692e6]'>{remainingTime.milliSeconds}</span><br></br>
-        <span className=' ' id='hi'>MS</span>
+        <span className='text-2xl md:text-8xl  text-pink-600 md:text-[#7692e6]'>{remainingTime.milliSeconds}</span><br></br>
+        <span className="text-sm md:text-3xl" id='hi'>MS</span>
         </div>
       </div>
       </div>

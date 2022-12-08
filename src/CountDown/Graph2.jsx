@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactApexChart from 'react-apexcharts';
+import './style.css'
 
 function Graph2 (){
   const series= [{
@@ -13,6 +14,7 @@ function Graph2 (){
       type: 'line',
       height: 350,
       background:'#F2ECF4',
+      index:-99,
       
     },
     stroke: {
@@ -93,7 +95,7 @@ function Graph2 (){
     
   }
   return(
-    <div className='-z-50'>
+    <div className='Graph2'>
       <ReactApexChart options={options} series={series} type="line" height={500} />
     </div>
   )

@@ -28,7 +28,7 @@
   .Graph2{
     margin-top: 3rem;
     padding: 1px;
-    z-index: -999;
+    z-index: -999  !important;
 
   
   }
@@ -40,7 +40,7 @@
     z-index: -999 !important;
   }
 
-  .apexcharts-chart {
+  .apexcharts-Graph2 {
     z-index: -999 !important;
 }
   

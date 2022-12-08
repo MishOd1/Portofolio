@@ -14,7 +14,7 @@ const Skills = () => {
     <div name='skills'   className='w-full h-screen bg-[#15243f] text-gray-300'>
       {/* Container */}
 
-      <div className='max-w-[1000px] mx-auto p-4 flex text-center flex-col justify-center w-full h-full'>
+      <div className='max-w-[75%] ml-[12.5%] mx-auto p-4 flex text-center flex-col justify-center w-full h-full'>
           <div>
               <p  className='text-4xl text-center font-bold inline border-b-4 border-pink-600 '>Skills</p>
               <p className='py-4 text-center'>// These are the technologies I've worked with </p>

@@ -120,7 +120,7 @@ export default function Graph(){
     }
   }  
     return(
-      <div className='-z-50'>
+      <div className='-z-999'>
          <ReactApexChart options={options} series={series} type="line" height={700} />
       </div>
     )

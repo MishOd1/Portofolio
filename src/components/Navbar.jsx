@@ -11,7 +11,7 @@ import {
 import CardDemo from './Cards';
 import Logo from '../assets/Fin.png';
 import { Link } from 'react-scroll';
-
+import './Test.css'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -47,7 +47,7 @@ const Navbar = () => {
         </li>
         <li >
           <Link to='Halving' smooth={true} duration={500}>
-            Halving Countdown
+            Halving
           </Link>
         </li>
         <li>
@@ -71,7 +71,7 @@ const Navbar = () => {
 
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick} className='md:hidden z-999'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -122,7 +122,7 @@ const Navbar = () => {
 
       {/* Social icons */}
       <div className=' lg:flex fixed flex-col top-[33.3333333%] left-2'>
-        <div className='hidden xl:flex'>
+        <div className='hidden lg:flex'>
         <ul >
         <li className='w-[140px] h-[25px] flex justify-between items-center ml-[-100px] hover:ml-[-22px] duration-300 border-solid border-[5px] border-gray-400  border-y-transparent  bg-gray-700  hover:bg-[#333] '>
             <a
@@ -156,7 +156,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='flex'>
-      <CardDemo className="hello ms:sr-only hidden md:flex" />
+      <CardDemo className="hello hidden" />
       </div>
     </div>
   );

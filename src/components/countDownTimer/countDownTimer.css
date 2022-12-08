@@ -55,9 +55,9 @@
     
     color:rgb(255, 255, 255);
     font-family: monospace;
-    font-size:33px;
-    margin-left: 10px;
-    text-shadow: 0.7px 1.5px rgba(206, 178, 218, 0.527);
+    /* font-size:33px;
+    margin-left: 10px; */
+    text-shadow: 0.7px 1.5px rgba(206, 178, 218, 0.281);
   }
   
   #bye{
