@@ -82,9 +82,7 @@ const CountdownTimer = ({countdownTimestampMs}) => {
         it stayed that way for more 4 years until year <xo className='text-white'>2016</xo> where the second halving took place and reward became <xd className='text-yellow-200'>12.5</xd> bitcoins,
         the halving after that took place in may <xo className='text-white'>2020</xo>, and the minners reward became <xd className='text-yellow-200'>6.25</xd> bitcoins, and it will stay that way until year <xo className='text-white'>2024</xo> where the reward will become <xd className='text-yellow-200'>3.125</xd> bitcoins.<br></br>
       </p>
-      <p className='text-[15px]  max-w-[90%] ml-[5%] text-gray-500 lg:max-w-[50%] lg:ml-[25%] mt-16 text-left mb-0 lg:mb-[-2%]'>
-        in the following chart we can see the drop in bitcoins's reward on each halving event:
-      </p>
+   
 
       
     </div>  

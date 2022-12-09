@@ -96,6 +96,9 @@ function Graph2 (){
   }
   return(
     <div className='Graph2'>
+         <p className='text-[15px]  text-gray-500 mt-16 text-left mb-0 '>
+        in the following chart we can see the drop in bitcoins's reward on each halving event:
+      </p>
       <ReactApexChart options={options} series={series} type="line" height={500} />
     </div>
   )

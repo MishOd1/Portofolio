@@ -95,7 +95,7 @@ function Card3() {
             The Bitcoin Quiz
           </p>
           <p className="py-4 text-gray-300">
-            // Expand your knowledge about BTC
+            / Expand your knowledge about BTC
           </p>
         </div>
         <h2 className="text-1xl lg:text-3xl mb-[-3.4%] text-[#8892b0]">
@@ -103,11 +103,7 @@ function Card3() {
           then procced to the 5 qustion quiz below it and answer all the
           qustions..
         </h2>
-        {/* <p className='text-[#8892b0] py-4 max-w-[60%] ml-[20%] text-center'>
-          after you answer all the qustions!<br></br>
-          you will get back a result, the result contains how many qustions you got right and your percenatge %<br></br>
-          and below your result, you will find a restart button marked in red, if you wish to re-take this exam, <b>good luck!</b>
-        </p> */}
+
       </div>
       <YoutubeEmbed embedId="wrPklp6PIew" />
 
